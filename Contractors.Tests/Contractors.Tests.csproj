@@ -81,6 +81,7 @@
   <ItemGroup>
     <Compile Include="AddContractorValidatorTest.cs" />
     <Compile Include="ContractorControllerTest.cs" />
+    <Compile Include="ContractorServiceTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

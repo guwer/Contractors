@@ -12,6 +12,7 @@ namespace Contractors.Services.Validators
         {
             if (contractor.Id == Guid.Empty)
             {
+                ValidationError = "Contractor id is not set.";
                 return false;
             }
 
