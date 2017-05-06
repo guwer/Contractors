@@ -238,7 +238,7 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Contractors.ContractorService\Contractors.Services.csproj">
+    <ProjectReference Include="..\Contractors.Services\Contractors.Services.csproj">
       <Project>{ee612f52-df85-4f76-bf8e-b7ff9d16efd4}</Project>
       <Name>Contractors.Services</Name>
     </ProjectReference>
@@ -246,7 +246,7 @@
       <Project>{e0c0befd-6900-488d-88b4-95cf706165c7}</Project>
       <Name>Contractors.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Contractors.InMemoryContractorRepository\Contractors.DataAccess.csproj">
+    <ProjectReference Include="..\Contractors.DataAccess\Contractors.DataAccess.csproj">
       <Project>{733e8d91-9394-4257-a068-cce3dd58d19a}</Project>
       <Name>Contractors.DataAccess</Name>
     </ProjectReference>
